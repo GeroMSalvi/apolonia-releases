@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad de Apolonia</title>
+<style>
+  :root { color-scheme: light dark; --text: #1f2328; --muted: #57606a; --bg: #ffffff; --link: #0969da; --line: #d0d7de; }
+  @media (prefers-color-scheme: dark) { :root { --text: #e6edf3; --muted: #9da7b3; --bg: #0d1117; --link: #58a6ff; --line: #30363d; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+  .lead { color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--link); }
+  code { font-size: .9em; overflow-wrap: anywhere; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="lead">Apolonia &middot; Última actualización: 28 de octubre de 2026</p>
+
+  <h2>Quién es el responsable</h2>
+  <p>Apolonia es un programa desarrollado y mantenido por Gerónimo Matias Salvi (en adelante, "el proveedor"). Contacto: <a href="mailto:gero_salvi_matias@hotmail.com">gero_salvi_matias@hotmail.com</a>.</p>
+
+  <h2>Qué datos de Google usa Apolonia</h2>
+  <p>Apolonia le pide a la persona del consultorio un único permiso de Google: <code>https://www.googleapis.com/auth/drive.file</code>. Con ese permiso, Apolonia solo puede crear, leer, reemplazar y borrar <strong>los archivos que ella misma creó</strong> en el Drive de la cuenta que se autorizó. No puede ver ningún otro archivo ni carpeta de esa cuenta, y no accede a los contactos, al correo, al calendario ni al perfil.</p>
+
+  <h2>Para qué los usa</h2>
+  <p>Únicamente para guardar y recuperar las copias de seguridad del consultorio: subir la copia diaria a la carpeta <strong>Apolonia Respaldos</strong>, reemplazar la copia anterior, descargarla cuando el consultorio necesita restaurar y comprobar que sigue disponible. Apolonia no usa estos datos para ningún otro fin.</p>
+
+  <h2>Cómo se protegen</h2>
+  <ul>
+    <li>La copia de seguridad se <strong>cifra en la computadora del consultorio antes de salir de ella</strong>, con una clave propia de ese consultorio. Lo que llega a Google Drive es un archivo cifrado.</li>
+    <li>La autorización que entrega Google (el "token") se guarda <strong>cifrada, en la base de datos de la computadora del consultorio</strong>. No se envía al proveedor ni a ningún servidor de Apolonia.</li>
+    <li>La contraseña de la cuenta de Google nunca pasa por Apolonia: la persona la escribe únicamente en el sitio de Google.</li>
+  </ul>
+
+  <h2>Qué recibe el proveedor</h2>
+  <p>El proveedor <strong>no recibe</strong> copias de los datos del consultorio ni acceso al Drive del consultorio. Para poder recuperar un servidor ante una pérdida, conserva una copia de las claves que se generan al instalar cada consultorio (entre ellas, la clave de las copias de seguridad). Esas claves no incluyen la autorización de Google ni dan acceso a la cuenta de Drive.</p>
+
+  <h2>Con quién se comparten</h2>
+  <p>Con nadie. Los datos de Google no se venden, no se alquilan, no se transfieren a terceros, no se usan para publicidad y no se usan para entrenar modelos de inteligencia artificial.</p>
+
+  <h2>Uso limitado de los datos de Google</h2>
+  <p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajustarán a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de las API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+  <h2>Cuánto tiempo se conservan</h2>
+  <p>El token se conserva en el consultorio mientras la autorización siga vigente. Las copias de seguridad quedan en el Drive del consultorio hasta que el consultorio las borre o Apolonia las reemplace por una más nueva.</p>
+
+  <h2>Cómo revocar el acceso o borrar los datos</h2>
+  <p>La persona del consultorio puede quitar el acceso de Apolonia en cualquier momento desde su cuenta de Google, en <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. También puede borrar la carpeta <strong>Apolonia Respaldos</strong> de su Drive. Si se revoca el acceso, Apolonia deja de poder subir copias y lo informa; para volver a usar Drive hay que autorizar de nuevo.</p>
+
+  <h2>Datos de pacientes</h2>
+  <p>Las copias de seguridad contienen los datos del consultorio, que incluyen información de salud de sus pacientes. El consultorio es quien decide sobre esos datos y quien los guarda en su propio Drive; el proveedor no los recibe. El tratamiento se rige por la Ley 25.326 de Protección de los Datos Personales de la República Argentina.</p>
+
+  <h2>Cambios en esta política</h2>
+  <p>Si esta política cambia, se publicará acá con una nueva fecha de actualización.</p>
+
+  <h2>Contacto</h2>
+  <p>Gerónimo Matias Salvi &middot; <a href="mailto:gero_salvi_matias@hotmail.com">gero_salvi_matias@hotmail.com</a></p>
+
+  <footer><a href="index.html">Volver a la página principal</a></footer>
+</main>
+</body>
+</html>
